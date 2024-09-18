@@ -5,27 +5,27 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Antimatter (αAME)",
+    img: "/antimatter.png",
+    desc: "Produces energy through the annihilation of matter with antimatter. Extremely efficient, producing a vast amount of energy from a small amount of fuel.",
   },
   {
     id: 2,
-    title: "Next.js Blog",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Celestial Navigator",
+    img: "/Celestial Navigator.png",
+    desc: "Navigate the Cosmos with Unmatched Luxury.Luxurious design with 2 spacious suites, gourmet kitchen, and premium life support systems.Superior climate control, deluxe entertainment options, and panoramic viewing areas.",
   },
   {
     id: 3,
-    title: "Vanilla JS App",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Argentum Starflyer",
+    img: "/Argentum Starflyer.png",
+    desc: "Efficiency Meets Elegance in the Stars, Compact and sleek, designed for 2 passengers with foldable beds, a small kitchenette, and a water recycling system.Advanced air purification and oxygen generation systems, climate control, and a basic entertainment system for enjoyable short trips.",
   },
   {
     id: 4,
-    title: "Music App",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "AquaStar Voyager",
+    img: "/compact - Aquastar.png",
+    desc: "Embrace the purity of space with every sip. AquaStar Voyager, compact yet mighty, ensures you’re never far from a refreshing drink, even in the farthest reaches of the cosmos.",
   },
 ];
 
@@ -72,7 +72,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Featured Works</h1>
+        <h1>Our Galactic Achievements</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (

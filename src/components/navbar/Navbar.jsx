@@ -6,27 +6,27 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {/* Sidebar */}
-      <Sidebar/>
+      <Sidebar />
       <div className="wrapper">
-        <motion.span
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-        >
-          Lama Dev
-        </motion.span>
+        <div className="logo-container">
+          <motion.img
+            src="/logo.png"
+            alt="Logo"
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            style={{ height: '50px' }} 
+          />
+        </div>
         <div className="social">
           <a href="#">
-            <img src="/facebook.png" alt="" />
+            <img src="/facebook.png" alt="Facebook" />
           </a>
           <a href="#">
-            <img src="/instagram.png" alt="" />
+            <img src="/instagram.png" alt="Instagram" />
           </a>
           <a href="#">
-            <img src="/youtube.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
+            <img src="/youtube.png" alt="YouTube" />
           </a>
         </div>
       </div>

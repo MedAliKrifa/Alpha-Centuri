@@ -36,21 +36,21 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+        Exploring beyond the stars,
+          <br /> creating tomorrow’s possibilities today.
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <img src="/antimatter.png" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"orange"}}>Building</motion.b> Pathways.
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"orange"}}>To the </motion.b> Universe.
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -60,12 +60,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2> Spacecraft Manufacturing</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Alpha Centauri LLC produces state-of-the-art spacecraft, from cargo ships to luxury and family vessels, equipped with advanced fusion and antimatter engines for peak performance and reliability.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +70,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Custom Ship Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Alpha Centauri LLC produces state-of-the-art spacecraft, from cargo ships to luxury and family vessels, equipped with advanced fusion and antimatter engines for peak performance and reliability.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,12 +80,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Maintenance and Support</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Alpha Centauri LLC produces state-of-the-art spacecraft, from cargo ships to luxury and family vessels, equipped with advanced fusion and antimatter engines for peak performance and reliability.
           </p>
           <button>Go</button>
         </motion.div>
@@ -99,12 +90,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Research and Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Alpha Centauri LLC produces state-of-the-art spacecraft, from cargo ships to luxury and family vessels, equipped with advanced fusion and antimatter engines for peak performance and reliability.
           </p>
           <button>Go</button>
         </motion.div>
